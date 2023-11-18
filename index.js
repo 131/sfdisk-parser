@@ -17,6 +17,7 @@ class SfdiskParser {
       let parsed = SfdiskParser.parsePart(part);
       this.parts.push(parsed);
     }
+    this.first_sector = parseInt(this.parts[0].start);
   }
 
   toString() {
@@ -28,15 +29,12 @@ class SfdiskParser {
 
     let i = 0;
 
-    let pos = -1;
+    let pos = this.first_sector;
     for(let part of this.parts) {
 
       let rline = `${this.metas['device']}${++i} : `;
 
       let size  = parseInt(part.size);
-
-      if(pos == -1)
-        pos = parseInt(part.start);
 
       part.start = pos;
 
