@@ -16,7 +16,7 @@
   },
   "name": "sfdisk-parser",
   "description": "[![Build Status](https://github.com/131/sfdisk-parser/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/131/sfdisk-parser/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/131/sfdisk-parser/badge.svg?branch=master)](https://coveralls.io/github/131/sfdisk-parser?branch=master) [![Version](https://img.shields.io/npm/v/sfdisk-parser.svg)](https://www.npmjs.com/package/sfdisk-parser) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT) [![Code style](https://img.shields.io/badge/code%2fstyle-ivs-green.svg)](https://www.npmjs.com/package/eslint-plugin-ivs)",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "main": "index.js",
   "directories": {
     "test": "test"
